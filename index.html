@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,500;1,200&family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+      <nav id="navigation">
+        <div class="menu">
+            <a href=""><img src="./img/tarot.png" alt="Carta de Tarot" width="50px"></a>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+        </div>
+      </nav>
+      <section class="container-1">
+        <div class="wrapper">
+          <img src="./img/crystal-ball.png" alt="Bola de cristal">
+          <h1>Descubra seu futuro com apenas um click.</h1>
+        </div>
+        <div class="wrapper">
+          <img src="./img/purr-halloween-magic.png" alt="Bola de cristal" width="300px">
+          <h1>Não sabe o que fazer da sua vida? Pergunte a Madame Sharon</h1>
+        </div>
+      </section>
+      <section class="container-2">
+        <div class="wrapper">
+          <img src="./img/conifer-1159.png" alt="Bola de cristal">
+          <div class="caixaPerguntas">
+            <h2>Vou revelar seu destino!</h2>
+            <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+            <input id="inputPergunta" type="text" placeholder="Digite sua pergunta!">
+            <button onclick="fazerPergunta()">Perguntar</button>
+            <h3 id="resposta"></h3>
+          </div>
+        </div>
+      </section>
+      
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
